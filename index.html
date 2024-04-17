@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="msapplication-TileColor" content="#1e4029">
+  <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#1e4029">
+
+  <title>Next Level Fairs</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- FONT Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+   <!-- ScrollMagic -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./index.js" defer></script>
+</head>
+<body>
+  <!-- CURSOR -->
+  <div class="cursor">
+    <div class="cursor__default">
+      <span class="cursor--inner"></span>
+    </div>
+    <div class="cursor__trace">
+      <span class="cursor-tr-inner"></span>
+    </div>
+  </div>
+
+  <div class="preloader show-area">
+    <div class="inner">
+      <button class="preloader--btn">
+        <span class="preloader--btn-per" id="preloader--btn-per"></span>
+        <span class="preloader--btn-hold">Hold</span>
+      </button>
+
+      <section class="bottom">
+        <svg class="preloader__icon-img" height="29" viewBox="0 0 32 29" width="32" xmlns="http://www.w3.org/2000/svg">
+          <g fill="none" fill-rule="evenodd" stroke="#D4A44D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.607" transform="translate(1 1)"><rect height="10.876" rx="1.189" width="3.734" x="4.532" y="15.995"></rect><path d="M26.116 6.604l-.905.67-.654.491c-.47.24-1.041.1-1.35-.33a10.764 10.764 0 0 0-8.137-3.728c-3.12 0-6.087 1.36-8.138 3.729-.309.429-.88.568-1.35.33l-.696-.54-.868-.622c-.386-.27-.322-1.037.193-1.62A14.367 14.367 0 0 1 15.07.011c4.162 0 8.12 1.813 10.859 4.973.509.583.573 1.35.187 1.62zM4.532 26.325C2.03 26.325 0 24.133 0 21.433s2.03-4.893 4.532-4.893"></path><rect height="10.876" rx="1.189" transform="rotate(-180 23.6 21.433)" width="3.734" x="21.734" y="15.995"></rect><path d="M25.468 26.325c2.502 0 4.532-2.192 4.532-4.892s-2.03-4.893-4.532-4.893M1.28 17.966a18.51 18.51 0 0 1 3.6-10.72M28.746 17.76a18.94 18.94 0 0 0-3.535-10.486"></path>
+          </g>
+        </svg>
+        <h2>Use headphones</h2>
+        <p>For better immersion in the world of drawing,<br>use your favorite headphones.</p>
+      </section>
+    </div>
+
+  </div>
+
+  
+  <div class="container hide-area">
+    <header class="header">
+
+      <div class="inner">
+        <div class="header-center">
+          <h1 class="title">last art<br>projects</h1>
+
+          <div class="header-animation">
+            <div class="ani-bar-top"></div>
+            <div class="middle-bar"></div>
+            <div class="ani-bar-btm"></div>
+          </div>
+
+          <h2 class="sub-title">little collection</h2>
+        </div>
+      </div>
+
+      <!-- Circle bg -->
+      <div class="header-item header-circle item-circle-left">
+        <svg class="header__circle-one" height="523" viewBox="0 0 523 523" width="523" xmlns="http://www.w3.org/2000/svg" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+          <circle cx="261.5" cy="261.5" fill="#1E4029" fill-rule="evenodd" r="261" stroke="#112819"></circle>
+        </svg>
+      </div>
+      <div class="header-item header-circle item-circle-right">
+        <svg class="header__circle-one" height="523" viewBox="0 0 523 523" width="523" xmlns="http://www.w3.org/2000/svg" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+          <circle cx="261.5" cy="261.5" fill="#1E4029" fill-rule="evenodd" r="261" stroke="#112819"></circle>
+        </svg>
+      </div>
+
+
+      <!-- Cube bg -->
+      <div class="header-item header-cube cube1">
+        <svg class="header__cube-one" height="219" viewBox="0 0 174 219" width="174" xmlns="http://www.w3.org/2000/svg" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+          <g fill="none" fill-rule="evenodd" stroke="#112819">
+            <path d="M122.025 1.635l3.064 74.789L3.975 194.365.91 119.576 122.025 1.635z" fill="#1E4029"></path>
+            <path d="M1 119l51 24.351V218L3.956 194.585zM122 1l51 24.351V100l-48.044-23.415z" fill="#1E4029" stroke-linecap="square"></path>
+            <path d="M172.5 98.5l-120 118" stroke-linecap="square"></path>
+          </g>
+        </svg>
+      </div>
+
+      <div class="header-item header-cube cube2">
+        <svg class="header__cube-two" height="281" viewBox="0 0 235 281" width="235" xmlns="http://www.w3.org/2000/svg" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+          <g fill="none" fill-rule="evenodd" stroke="#112819">
+            <path d="M234 166l-55.125 27.123L173 279l52.17-26.188zM61 1L6.713 26.292 1 113l51.227-24.9z" fill="#1E4029" stroke-linecap="square"></path>
+            <path d="M61.5 1.5l172 165" stroke-linecap="square"></path>
+            <path d="M6.371 26.386L.553 112.37l173.076 167.243 5.818-85.985L6.371 26.386z" fill="#1E4029"></path>
+          </g>
+        </svg>
+      </div>
+
+      <div class="header-item header-cube cube3">
+        <svg class="header__cube-two" height="281" viewBox="0 0 235 281" width="235" xmlns="http://www.w3.org/2000/svg" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+          <g fill="none" fill-rule="evenodd" stroke="#112819">
+            <path d="M234 166l-55.125 27.123L173 279l52.17-26.188zM61 1L6.713 26.292 1 113l51.227-24.9z" fill="#1E4029" stroke-linecap="square"></path>
+            <path d="M61.5 1.5l172 165" stroke-linecap="square"></path>
+            <path d="M6.371 26.386L.553 112.37l173.076 167.243 5.818-85.985L6.371 26.386z" fill="#1E4029"></path>
+          </g>
+        </svg>
+      </div>
+
+      <div class="header-item header-cube cube4">
+        <svg class="header__cube-one" height="219" viewBox="0 0 174 219" width="174" xmlns="http://www.w3.org/2000/svg" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+          <g fill="none" fill-rule="evenodd" stroke="#112819">
+            <path d="M122.025 1.635l3.064 74.789L3.975 194.365.91 119.576 122.025 1.635z" fill="#1E4029"></path>
+            <path d="M1 119l51 24.351V218L3.956 194.585zM122 1l51 24.351V100l-48.044-23.415z" fill="#1E4029" stroke-linecap="square"></path>
+            <path d="M172.5 98.5l-120 118" stroke-linecap="square"></path>
+          </g>
+        </svg>
+      </div>
+
+    </header>
+
+    <section class="poster">
+      <article class="poster-item item1 scroll-spy">
+        <div class="item-wrap back-to-position to-left delay-0"> 
+          <div class="poster-bg">
+            <ul class="poster-list">
+              <li class="poster-list-item">
+                <span class="first-text">Large gallery with<br>a shop inside</span>
+              </li>
+              <li class="poster-list-item">
+                <div>
+                  <span>Main Font</span>
+                  <span>Adieu</span>
+                </div>
+              </li>
+              <li class="poster-list-item">
+                <div>
+                  <span>Remaining Fonts</span>
+                  <span>Poppins, Gt Walsheim Pro</span>
+                  
+                </div>
+              </li>
+              <li class="poster-list-item">
+                <div>
+                  <span>Category</span>
+                  <span>Collections</span>
+                </div>
+              </li>
+            </ul>
+
+            <span class="poster__text-top back-to-positiony to-bottom delay-0">Art galleries<br>and paintings</span>
+            <span class="poster__text-bottom back-to-positiony to-top delay-0">Art galleries<br>and paintings</span>
+          </div>
+        </div>
+      </article>
+      <article class="poster-item item2 scroll-spy">
+        <div class="item-wrap back-to-position to-right delay-1">
+          <img src="./images/poster-1.jpg" alt="">
+        </div>
+      </article>
+      <article class="poster-item item3 scroll-spy">
+        <div class="item-wrap back-to-position to-right delay-0">
+          <div class="box">
+            <img src="./images/poster-2.jpg" alt="">
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+</html> 
